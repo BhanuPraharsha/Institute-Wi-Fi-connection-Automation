@@ -3,7 +3,9 @@ This Python script automatically connects to the "ISM-Campus-Wi-Fi" network and 
 
 
 1)make a copy of the wifi_auto_login.py
+
 2)replace the username and passwords with the actual usernames and passwords.
+
 3)set-up a scheduler using the Task Scheduler application in Windows.
 
 The below steps are for setting up the scheduler.
@@ -23,4 +25,8 @@ The below steps are for setting up the scheduler.
 "C:\Users\<username>\AppData\Local\Programs\Python\Python313\python.exe" in windows. And put the absolute path of wifi_auto_login.py in the add arguments section.
 
 10) under conditions section, make sure that the option: "Start the task only is computer is on AC power" is unchecked.
- also make sure that the wifi option remains switched on at all times for the script to work!!
+  
+11) also make sure that the wifi option remains switched on at all times for the script to work!!
+
+NOTE: This script is for connecting to the wifi of iit-ism campus only.
+The name of the institute Wi-Fi might change, so update the python script whenever needed.
