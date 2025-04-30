@@ -16,7 +16,7 @@
 
 7. Check the box for "Run with highest privileges."
 
-8. In the "Triggers" section, click "New," then select "At log on" from the drop-down menu.
+8. In the "Triggers" section, click "New," then select "At log on" and "On workstation unlock" from the drop-down menu.
 
 9. In the "Actions" section, click "New." Enter the path of the `python.exe` file under the "Program/script" field. It is generally located at:
 
